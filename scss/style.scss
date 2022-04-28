@@ -1,0 +1,19 @@
+
+body {
+  font-family: "Roboto Mono", monospace;
+
+  background: #fff;
+  color: #474747;
+
+  main {
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@import "mixins";
+@import "header";
+@import "main";
+@import "comments";
+@import "footer";

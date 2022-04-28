@@ -1,0 +1,44 @@
+.footer {
+    overflow: hidden;
+    background-color: #f4f4f4;
+
+    .arrowup {
+        width: 63px;
+        height: 63px;
+        background: #FFFFFF;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -30px;
+
+        svg {
+            padding-top: 35px;
+
+            path:hover {
+                fill: #FFBA9D;
+            }
+        }
+
+        svg:hover {
+            padding-top: 0px;
+            transition: all 0.8s ease-in-out;
+        }
+    }
+
+    .container {
+        max-width: 1120px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    @include media-screen-xs {
+        .container {
+            flex-direction: column;
+        }
+    }
+}

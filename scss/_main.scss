@@ -1,0 +1,46 @@
+.smalltext {
+  font-size: 12px;
+  line-height: 14px;
+  color: #777777;
+
+  svg {
+    margin-left: 12px;
+  }
+}
+h5 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.slider {
+  margin-top: 48px;
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+}
+
+.info {
+  margin-top: 48px;
+  font-size: 16px;
+  line-height: 32px;
+
+  &__title {
+    font-size: 19px;
+    line-height: 28px;
+  }
+
+  ul > li {
+    margin-left: -22px;
+  }
+}
+
+.article {
+  max-width: 983px;
+  border-left: solid 2px #DFDFDF;
+  margin-left: 30px;
+  padding-left: 16px;
+  font-size: 16px;
+  line-height: 32px;
+}
